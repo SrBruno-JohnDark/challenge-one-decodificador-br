@@ -1,0 +1,33 @@
+html{
+    background-color: #0f0d0d;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.criptatorBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textarea{
+    resize:none;
+    outline:none;
+    color: #00af00;
+    border-radius: 1rem;
+    border: 1rem transparent solid;
+    background-color: #252525b6;
+}
+.change{
+    width: 4rem;
+    height: 4rem;
+    background-color: #0000009c;
+    border-radius: 4rem;
+}
+.change>img{
+    width: 4rem;
+    height: 4rem;
+    transform: rotate(270deg);
+}
