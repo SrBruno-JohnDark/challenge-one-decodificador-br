@@ -17,6 +17,7 @@ function limparCaixas() {
     input1.value = "";
     output1.value = "";
     copyResult1.innerText = "";
+    change1.style.transform = "rotate(0deg)";
 }
 
 //copiar pra área de transferência
